@@ -102,15 +102,10 @@ def blink(times):
 #     matrix.clear()
 
 def get_time():
-#    datetime = time.localtime()
-#    hour =  str(datetime[4])
-#    minute = str(datetime[5])
-    #time = hour + ':' + minute
     datetime = rtc.datetime()
     hour =  str(datetime[4])
     minute = str(datetime[5])
     time = hour + ':' + minute
-    #time = "{}:{:02d}".format(hour, mins)
     print(time)
 
 def pulse_heart(times):
