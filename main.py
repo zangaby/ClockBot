@@ -99,7 +99,6 @@ def blink(times):
         matrix.show_icon("happy")
         sleep(speed)
         matrix.clear()
-#     matrix.clear()
 
 def get_time():
     datetime = rtc.datetime()
